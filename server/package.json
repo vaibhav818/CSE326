@@ -1,0 +1,21 @@
+{
+  "name": "crowd-funding-server",
+  "version": "1.0.0",
+  "description": "Backend REST API for Crowd Funding & Social Awareness Platform",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "crowd-funding-platform": "file:..",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "morgan": "^1.10.0",
+    "pg": "^8.11.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
